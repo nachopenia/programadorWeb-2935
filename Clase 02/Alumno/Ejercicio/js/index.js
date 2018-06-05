@@ -16,6 +16,7 @@ switch (dia) {
 
   default:
     console.log('No es un dia valido')
+    break
 }
 
 // if (dia === 'lunes' || dia === 'martes' || dia === 'miercoles' || dia === 'jueves' || dia === 'viernes') {
