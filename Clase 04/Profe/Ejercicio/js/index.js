@@ -1,8 +1,8 @@
 // Datos iniciales de prueba
-var examResults = [ 7, 5, 6, 4, 3, 2, 8 ]
+var examResults = [7, 5, 6, 4, 3, 2, 8]
 
 // Creo mi función que recibe como parámetro un Array de números
-function calcProm (examResults) {
+function calcProm(examResults) {
   // Creo una variable para almacenar la nota y otra para la acumulación de la suma de las notas
   var value
   var prom = 0
