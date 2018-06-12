@@ -1,10 +1,9 @@
 var examResults = [7, 5, 6, 4, 3, 2, 8]
 
-
 function promedioFinal(examResults) {
-
   var value
   var suma = 0
+
 
   for (var i = 0; i < examResults.length; i++) {
     value = examResults[i]
@@ -18,4 +17,4 @@ function promedioFinal(examResults) {
 
 var resultado = promedioFinal(examResults)
 
-console.log('El promedio es: ' + resultado)
+console.log('El promedio es ' + resultado)
